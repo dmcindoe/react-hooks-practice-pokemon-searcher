@@ -1,6 +1,15 @@
 {
   "pokemon": [
     {
+      "id": 1,
+      "name": "Bulbasaur",
+      "hp": "40",
+      "sprites": {
+        "front": "https://img.pokemondb.net/sprites/black-white/normal/bulbasaur.png",
+        "back": "https://img.pokemondb.net/sprites/black-white/back-normal/bulbasaur.png"
+      }
+    },
+    {
       "id": 2,
       "name": "ivysaur",
       "hp": 60,
@@ -1339,6 +1348,24 @@
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/150.png"
+      }
+    },
+    {
+      "name": "Mew",
+      "hp": "100",
+      "sprites": {
+        "front": "https://img.pokemondb.net/sprites/black-white/normal/mew.png",
+        "back": "https://img.pokemondb.net/sprites/black-white/back-normal/mew.png"
+      },
+      "id": 151
+    },
+    {
+      "id": 152,
+      "name": "Chikorita",
+      "hp": "35",
+      "sprites": {
+        "front": "https://img.pokemondb.net/sprites/black-white/normal/chikorita.png",
+        "back": "https://img.pokemondb.net/sprites/black-white/back-normal/chikorita.png"
       }
     }
   ]

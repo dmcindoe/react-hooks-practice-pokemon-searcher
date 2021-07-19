@@ -4,6 +4,7 @@ import { Form } from "semantic-ui-react";
 function PokemonForm({ onAddPokemon }) {
 
 const [formData, setFormData] = useState({
+  id:"",
   name: "",
   hp: "",
   sprites: {
@@ -23,7 +24,7 @@ const handleSubmit = (event) => {
   event.preventDefault()
 
   const newPokemon ={
-    
+    id: formData.id,
     name: formData.name,
     hp: formData.hp,
     sprites:{
